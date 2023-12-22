@@ -1,7 +1,5 @@
 import torch
 
-import torch
-
 def custom_conv2d(input_tensor, weight, bias=None, stride=1, padding=0):
 
     if input_tensor.dim() != 4 or weight.dim() != 4:
